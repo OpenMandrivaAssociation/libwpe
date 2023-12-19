@@ -4,8 +4,8 @@
 
 
 Name:           libwpe
-Version:        1.14.1
-Release:        2
+Version:        1.15.1
+Release:        1
 Summary:        General-purpose library for the WPE-flavored port of WebKit
 Group:		System/Libraries
 License:        BSD
