@@ -1,10 +1,11 @@
 %define major 1
-%define libname %mklibname wpe %{major}
+%define libname %mklibname wpe
+%define oldlibname %mklibname wpe 1
 %define devname %mklibname wpe -d
 
 
 Name:           libwpe
-Version:        1.15.1
+Version:        1.15.2
 Release:        1
 Summary:        General-purpose library for the WPE-flavored port of WebKit
 Group:		System/Libraries
@@ -26,6 +27,7 @@ General-purpose library developed for the WPE-flavored port of WebKit
 Summary:	Libraries for %{name}
 Group:		System/Libraries
 License:	LGPLv2+
+%rename %{oldlibname}
 
 %description -n %{libname}
 Libraries for %{name}.
